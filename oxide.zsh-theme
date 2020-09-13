@@ -70,5 +70,6 @@ add-zsh-hook precmd vcs_info
 
 
 # Oxide prompt style.
-PROMPT=$'\n%{$oxide_darkgreen%}%M%  %{$oxide_white%}%~%{$oxide_reset_color%} ${vcs_info_msg_0_}\n%(?.%{%F{white}%}.%{$oxide_red%})%(!.➜.❯)%{$oxide_reset_color%} '
+PROMPT=$'%{$oxide_darkgreen%}💀 %M%  %{$oxide_white%}%~%{$oxide_reset_color%} ${vcs_info_msg_0_}\n%(?.%{%F{white}%}.%{$oxide_red%})%(!.➜.❯)  %{$oxide_reset_color%}'
+RPROMPT=$'%t' 
 
